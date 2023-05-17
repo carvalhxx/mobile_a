@@ -12,34 +12,45 @@ const styles = StyleSheet.create({
         fontSize: 26,
         fontWeight: 'bold',
         textAlign: 'center',
-        color: '#9E9E9E'
+        color: '#9E9E9E',
+        position: 'absolute',
+        top: 300,
+        left: 53
     },
     button1: {
         backgroundColor: '#9E9E9E',
         height: 60,
         width: 70,
+        flexDirection: 'row',
         justifyContent: 'center',
-        position: "absolute",
-        left: 75,
-        bottom: 250,
+        position: 'absolute',
+        left: 230,
+        bottom: 340,
+        alignItems: 'center'
+
     },
     button2: {
         backgroundColor: '#9E9E9E',
         height: 60,
         width: 70,
-        position: "absolute",
-        left: 230,
-        bottom: 250
+        flexDirection: 'row',
+        justifyContent:'center',
+        position: 'absolute',
+        left: 90,
+        bottom: 340,
+        alignItems: 'center'
     },
     button3: {
         backgroundColor: '#9E9E9E',
         height: 40,
         width: 150,
         justifyContent: 'center',
-        position: 'absolute',
-        bottom: 200,
-        left: 110,
         borderRadius: 25,
+        alignSelf: 'center',
+        position: 'absolute',
+        bottom: 280,
+
+        
         
     },
     textButton: {
@@ -61,7 +72,15 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         position: 'absolute',
-        left: '50'
+        left: 185,
+        bottom: 350
+    },
+    horizontal: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignContent: 'center',
+        margin: 10,
+        padding: 10
     }
 });
 
